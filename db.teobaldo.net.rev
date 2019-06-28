@@ -1,0 +1,16 @@
+$TTL 86400
+@ IN SOA teobaldo.net. ewerton.teobaldo.net. (
+   1   ;Serial
+   604800   ;Refresh
+   86400   ;Retry
+   2419200   ;Expire
+   86400)   ;Negative Cache TTL
+;
+     IN   NS   localhost.
+1  IN   PTR www.teobaldo.net.
+2  IN   PTR ftp.teobaldo.net.
+3  IN   PTR smtp.teobaldo.net.
+4  IN   PTR pop.teobaldo.net.
+5  IN   PTR imap.teobaldo.net.
+6  IN   PTR ssh.teobaldo.net.
+7  IN   PTR mail.teobaldo.net.
